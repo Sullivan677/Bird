@@ -1,0 +1,29 @@
+{
+      "birds": {
+        "-LopNlkA3fV6jau8i0a1": {
+            "id": 1,
+             "imageURL": "https://images.unsplash.com/photo-1591198936750-16d8e15edb9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80",
+             "name": "Goldfinch"
+        },
+        "-LopSJuhwbN8s4abNS8z": {
+            "id": 2,
+            "imageURL": "https://images.unsplash.com/photo-1624981782695-30877d53b229?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
+            "name": "Peacock"
+        },
+        "-LopNlkgaqYT6jau8i0q3": {
+            "id": 3,
+            "imageURL": "https://images.unsplash.com/photo-1628984021234-2c3e607b35e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGZsYW1pbmdvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
+            "name": "Flamingo"
+        },
+        "-LopNlkA3fVTq9v8i0p1": {
+            "id": 4,
+            "imageURL": "https://images.unsplash.com/photo-1634330843151-defdc7e41fdd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG95c3RlcmNhdGNoZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60",
+            "name": "OysterCatcher"
+        },
+        "-LopNlkAtqpPy540z2": {
+            "id": 5,
+            "imageURL": "https://images.unsplash.com/photo-1634506265190-46c1bcbbba87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YXZvY2V0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
+            "name": "Avocet"
+        }
+      }
+}

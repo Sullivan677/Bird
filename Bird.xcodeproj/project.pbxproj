@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75488F92287815EF00C993AD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 75488F91287815EF00C993AD /* FirebaseAuth */; };
+		75488F94287815EF00C993AD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 75488F93287815EF00C993AD /* FirebaseDatabase */; };
+		75488F96287815EF00C993AD /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 75488F95287815EF00C993AD /* FirebaseDatabaseSwift */; };
+		75488F982878193700C993AD /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75488F972878193700C993AD /* Bird.swift */; };
+		75488F9A28781A1000C993AD /* BirdViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75488F9928781A1000C993AD /* BirdViewModel.swift */; };
+		75488F9C287857AD00C993AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75488F9B287857AD00C993AD /* GoogleService-Info.plist */; };
 		7592F9DF287812210040DBAF /* BirdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7592F9DE287812210040DBAF /* BirdApp.swift */; };
 		7592F9E1287812210040DBAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7592F9E0287812210040DBAF /* ContentView.swift */; };
 		7592F9E3287812230040DBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7592F9E2287812230040DBAF /* Assets.xcassets */; };
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75488F972878193700C993AD /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		75488F9928781A1000C993AD /* BirdViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdViewModel.swift; sourceTree = "<group>"; };
+		75488F9B287857AD00C993AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7592F9DB287812210040DBAF /* Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7592F9DE287812210040DBAF /* BirdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdApp.swift; sourceTree = "<group>"; };
 		7592F9E0287812210040DBAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75488F96287815EF00C993AD /* FirebaseDatabaseSwift in Frameworks */,
+				75488F94287815EF00C993AD /* FirebaseDatabase in Frameworks */,
+				75488F92287815EF00C993AD /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +108,10 @@
 			children = (
 				7592F9DE287812210040DBAF /* BirdApp.swift */,
 				7592F9E0287812210040DBAF /* ContentView.swift */,
+				75488F972878193700C993AD /* Bird.swift */,
+				75488F9928781A1000C993AD /* BirdViewModel.swift */,
 				7592F9E2287812230040DBAF /* Assets.xcassets */,
+				75488F9B287857AD00C993AD /* GoogleService-Info.plist */,
 				7592F9E4287812230040DBAF /* Preview Content */,
 			);
 			path = Bird;
@@ -143,6 +158,11 @@
 			dependencies = (
 			);
 			name = Bird;
+			packageProductDependencies = (
+				75488F91287815EF00C993AD /* FirebaseAuth */,
+				75488F93287815EF00C993AD /* FirebaseDatabase */,
+				75488F95287815EF00C993AD /* FirebaseDatabaseSwift */,
+			);
 			productName = Bird;
 			productReference = 7592F9DB287812210040DBAF /* Bird.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +235,9 @@
 				Base,
 			);
 			mainGroup = 7592F9D2287812210040DBAF;
+			packageReferences = (
+				75488F90287815EF00C993AD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 7592F9DC287812210040DBAF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7592F9E6287812230040DBAF /* Preview Assets.xcassets in Resources */,
+				75488F9C287857AD00C993AD /* GoogleService-Info.plist in Resources */,
 				7592F9E3287812230040DBAF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7592F9E1287812210040DBAF /* ContentView.swift in Sources */,
+				75488F982878193700C993AD /* Bird.swift in Sources */,
 				7592F9DF287812210040DBAF /* BirdApp.swift in Sources */,
+				75488F9A28781A1000C993AD /* BirdViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +609,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75488F90287815EF00C993AD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		75488F91287815EF00C993AD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75488F90287815EF00C993AD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		75488F93287815EF00C993AD /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75488F90287815EF00C993AD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		75488F95287815EF00C993AD /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75488F90287815EF00C993AD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7592F9D3287812210040DBAF /* Project object */;
 }
